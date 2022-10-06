@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './style'
 
-const App = () => {
+
+const App = () => (
   <div className='bg-primary w-full overflow-hidden text-white'>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
@@ -29,6 +30,6 @@ const App = () => {
     </div>
 
   </div>
-}
+);
 
 export default App
